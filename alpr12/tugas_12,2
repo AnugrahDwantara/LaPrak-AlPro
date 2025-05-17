@@ -1,0 +1,10 @@
+def map_lists_to_dict(keys, values):
+    return dict(zip(keys, values))
+
+
+# Contoh penggunaan fungsi
+Lista = ['red', 'green', 'blue']
+Listb = ['#FF0000', '#008000', '#0000FF']
+
+hasil = map_lists_to_dict(Lista, Listb)
+print(hasil)
